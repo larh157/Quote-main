@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+body {
+    background: url('https://cdn.dribbble.com/users/2156796/screenshots/19992280/media/7d2ee3a4d15d1f335419059066067694.gif');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote-box {
+    display: table;
+    font-size: 1.3rem;
+    font-family: 'Roboto Slab', sans-serif;
+    background-color: antiquewhite;
+    width: 50rem;
+    height: 20rem;
+    border: 5rem solid antiquewhite;
+    border-radius: 5rem;
+    position: relative;
+    top: 23vh;
+    box-shadow: 20px 0px rgb(253, 222, 182);
+}
+
+#text {
+    position: relative;
+    bottom: 1.5rem;
+    text-shadow: -3px 0px rgb(252, 198, 127);
+}
+
+#author {
+    text-align: center;
+    text-shadow: -3px 0px rgb(252, 198, 127);
+}
+
+#new-quote {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.4rem;
+    cursor: pointer;
+    height: 4rem;
+    width: 10rem;
+    position: relative;
+    left: 40rem;
+    top: 1rem;
+    background-color: rgb(126, 63, 63);
+    box-shadow: 10px 0px rgb(102, 40, 55);
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    text-shadow: -3px 0px rgb(102, 40, 55);
+}
+
+#new-quote:active {
+    box-shadow: 0px 0px rgb(102, 40, 55);
+    left: 40.7rem;
+}
+
+#tweet-quote {
+    font-size: 5rem;
+    position: relative;
+    top: 1.7rem;
+    right: 10rem;
+    color: rgb(0, 140, 255);
+    transition: font-size 1s;
+}
+
+#tweet-quote:hover {
+    font-size: 6rem;
+}
