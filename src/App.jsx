@@ -5,6 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faQuote } from '@fortawesome/free-solid-svg-icons'
 
+
+
+
 function App() {
 
   const [quote, setQuote] = useState(quotes[0])
@@ -13,7 +16,7 @@ function App() {
   return (
     <>
     <div id='quote-box'>
-    <FontAwesomeIcon icon={faQuote} />
+    {/* <FontAwesomeIcon icon={faQuote} /> */}
     <h1 id='text'>{quote.text}</h1>
     <h3 id='author'>-{quote.author}</h3>
     <button id='new-quote' onClick={()=> setQuote(quotes[randomNumber()])}>New Quote</button>
